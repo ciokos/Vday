@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #FF69B4;
+}
+
+.button {
+    -fx-padding: 12px, 12px;
+    -fx-border-color: white;
+    -fx-background-color: #FF69B4;
+    -fx-font: 20px "Century Gothic";
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-border-color: white;
+    -fx-background-color: white;
+    -fx-text-fill: #FF69B4;
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9, white, white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-font-family: "Century Gothic";
+    -fx-font-weight: bolder;
+}
+
+#text {
+    -fx-text-fill: white;
+    -fx-font-family: "Snell Roundhand";
+    -fx-font-size: 30;
+}
+
+.scroll-pane {
+    -fx-background-color: #FF69B4;
+}
